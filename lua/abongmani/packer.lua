@@ -37,4 +37,5 @@ use {
     {'L3MON4D3/LuaSnip'},     -- Required
   }
 }
+use "lukas-reineke/lsp-format.nvim"
 end)
