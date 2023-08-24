@@ -84,6 +84,16 @@ _G.packer_plugins = {
     path = "/home/briane/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  harpoon = {
+    loaded = true,
+    path = "/home/briane/.local/share/nvim/site/pack/packer/start/harpoon",
+    url = "https://github.com/ThePrimeagen/harpoon"
+  },
+  ["indent-blankline.nvim"] = {
+    loaded = true,
+    path = "/home/briane/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
+  },
   ["lsp-format.nvim"] = {
     loaded = true,
     path = "/home/briane/.local/share/nvim/site/pack/packer/start/lsp-format.nvim",
@@ -104,10 +114,20 @@ _G.packer_plugins = {
     path = "/home/briane/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["null-ls.nvim"] = {
+    loaded = true,
+    path = "/home/briane/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
+    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/briane/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-hardline"] = {
+    loaded = true,
+    path = "/home/briane/.local/share/nvim/site/pack/packer/start/nvim-hardline",
+    url = "https://github.com/ojroques/nvim-hardline"
   },
   ["nvim-lspconfig"] = {
     loaded = true,

@@ -1,2 +1,3 @@
 require("lsp-format").setup {}
-require("lspconfig").gopls.setup { on_attach = require("lsp-format").on_attach }
+local lspconfig = require("lspconfig")
+lspconfig.gopls.setup { on_attach = require("lsp-format").on_attach }
